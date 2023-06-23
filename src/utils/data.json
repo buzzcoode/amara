@@ -1,1 +1,189 @@
-export const data = []
+    {
+        "insurance_companies": [
+            {
+                "name": "ENSA Seguros de Angola", 
+                "products": [
+                    {
+                        "type": "sport",
+                        "price": 500,
+                        "coverage": "Cobertura abrangente",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "leisure",
+                        "price": 300,
+                        "coverage": "Cobertura de despesas médicas",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "parachutting",
+                        "price": 1000,
+                        "coverage": "Cobertura de benefício por morte",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "travel",
+                        "price": 150,
+                        "coverage": "Cobertura de cancelamento de viagem e despesas médicas",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    }
+                ]
+            },
+            {
+                "name": "Nossa Seguros",
+                "products": [
+                    {
+                        "type": "sport",
+                        "price": 450,
+                        "coverage": "Cobertura básica",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "leisure",
+                        "price": 400,
+                        "coverage": "Cobertura de hospitalização",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "parachutting",
+                        "price": 900,
+                        "coverage": "Cobertura de seguro de vida a termo",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "travel",
+                        "price": 180,
+                        "coverage": "Cobertura médica de emergência",
+                        "body_damage": "Não",
+                        "material_damage": "Sim",
+                        "auto_support": "SIM"
+                    }
+                ]
+            },
+            {
+                "name": "Sanlam Angola",
+                "products": [
+                    {
+                        "type": "sport",
+                        "price": 550,
+                        "coverage": "Cobertura de colisão",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Não"
+                    },
+                    {
+                        "type": "leisure",
+                        "price": 350,
+                        "coverage": "Cobertura de medicamentos com receita",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Sim"
+                    },
+                    {
+                        "type": "parachutting",
+                        "price": 1100,
+                        "coverage": "Cobertura de seguro de vida inteira",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Não"
+                    },
+                    {
+                        "type": "travel",
+                        "price": 160,
+                        "coverage": "Cobertura de perda de bagagem",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Não"
+                    }
+                ]
+            },
+            {
+                "name": "Fidelidade Seguros",
+                "products": [
+                    {
+                        "type": "sport",
+                        "price": 400,
+                        "coverage": "Cobertura de responsabilidade e colisão",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Sim"
+                    },
+                    {
+                        "type": "leisure",
+                        "price": 250,
+                        "coverage": "Cobertura odontológica e de visão",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Sim"
+                    },
+                    {
+                        "type": "parachutting",
+                        "price": 950,
+                        "coverage": "Cobertura de seguro de vida universal",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "SIM"
+                    },
+                    {
+                        "type": "travel",
+                        "price": 200,
+                        "coverage": "Cobertura de interrupção de viagem",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Não"
+                    }
+                ]
+            },
+            {
+                "name": "Global Seguros",
+                "products": [
+                    {
+                        "type": "sport",
+                        "price": 600,
+                        "coverage": "Cobertura de responsabilidade civil",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Sim"
+                    },
+                    {
+                        "type": "leisure",
+                        "price": 400,
+                        "coverage": "Cobertura de internação e consultas externas",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Sim"
+                    },
+                    {
+                        "type": "parachutting",
+                        "price": 1200,
+                        "coverage": "Cobertura de seguro de vida com resgate",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Não"
+                    },
+                    {
+                        "type": "travel",
+                        "price": 250,
+                        "coverage": "Cobertura de evacuação médica de emergência",
+                        "body_damage": "Sim",
+                        "material_damage": "Não",
+                        "auto_support": "Sim"
+                    }
+                ]
+            }
+        ]
+    }
