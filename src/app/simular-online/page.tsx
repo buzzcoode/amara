@@ -1,7 +1,7 @@
-export default function Home() {
+import { Insurance } from "@/components/Insurance";
+
+export default function Index() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>       
+    <Insurance />     
   )
 }

@@ -19,14 +19,14 @@ export const Header = () => {
     <nav className={`bg-white pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
     <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
       <div className="flex items-center justify-between py-5 md:block">
-        <a href="#">
+        <Link href="/">
           <img
             src="/amara-logo.svg"
             width={120}
             height={50}
             alt="Amara logo"
           />
-        </a>
+        </Link>
         <div className="md:hidden">
           <button
             className="menu-btn text-gray-500 hover:text-gray-800"

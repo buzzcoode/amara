@@ -1,7 +1,8 @@
 import Link from "next/link"
 
 export const Hero = () => (
-  <section className="mt-24 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
+  <section className="hero">
+    <div className="pt-36 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
     <div className="space-y-4 flex-1 sm:text-center lg:text-left">
       <h1 className="text-white font-bold text-4xl xl:text-5xl">
         Todos os seguros em um só lugar!
@@ -18,8 +19,9 @@ export const Hero = () => (
       </Link>
     </div>
     </div>
-    <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
+    {/* <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
       <img src="/banner.png" className="w-full h-96 mx-auto sm:w-10/12  lg:w-full" />
+    </div> */}
     </div>
   </section>
 )
